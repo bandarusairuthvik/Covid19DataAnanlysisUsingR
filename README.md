@@ -12,6 +12,7 @@ ggplot2
 shadowtext
 covid19.analytics
 cowplot
+
 These packages can be installed using the following R commands:
 
 install.packages("dplyr")
@@ -26,19 +27,25 @@ install.packages("cowplot")
 
 Usage
 Load the required libraries:
-r
-Copy code
+
 library(dplyr)
+
 library(ggplot2)
+
 library(shadowtext)
+
 library(covid19.analytics)
+
 library(cowplot)
+
 Run the script:
-r
-Copy code
+
 source("path/to/script.R")
+
 Explore the results in the generated plots.
+
 Output
+
 The program generates two plots:
 
 A polar plot showing COVID-19 cases for the top 40 countries as of a specified date.
