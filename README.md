@@ -14,13 +14,16 @@ covid19.analytics
 cowplot
 These packages can be installed using the following R commands:
 
-r
-Copy code
 install.packages("dplyr")
+
 install.packages("ggplot2")
+
 install.packages("shadowtext")
+
 install.packages("covid19.analytics")
+
 install.packages("cowplot")
+
 Usage
 Load the required libraries:
 r
