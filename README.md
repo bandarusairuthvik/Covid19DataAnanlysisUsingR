@@ -25,28 +25,14 @@ install.packages("covid19.analytics")
 
 install.packages("cowplot")
 
-Usage
-Load the required libraries:
+So, 
 
-library(dplyr)
+Usage:
 
-library(ggplot2)
+1. Clone or download the repository to your local machine.
+2. Open the R script `COVID19_Analysis.R` in your preferred R environment (e.g., RStudio).
+3. Ensure that all necessary R packages are installed by running the script. If any packages are missing, install them using the `install.packages()` function.
+4. Run the script to generate the COVID-19 analysis plots.
+5. The generated plots will be saved in the current working directory as `nCov2019.jpg`.
 
-library(shadowtext)
 
-library(covid19.analytics)
-
-library(cowplot)
-
-Run the script:
-
-source("path/to/script.R")
-
-Explore the results in the generated plots.
-
-Output
-
-The program generates two plots:
-
-A polar plot showing COVID-19 cases for the top 40 countries as of a specified date.
-A scatter plot showing the total COVID-19 cases over time for selected countries.
