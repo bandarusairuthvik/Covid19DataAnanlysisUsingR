@@ -34,6 +34,3 @@ Usage:
 3. Ensure that all necessary R packages are installed by running the script. If any packages are missing, install them using the `install.packages()` function.
 4. Run the script to generate the COVID-19 analysis plots.
 5. The generated plots will be saved in the current working directory as `nCov2019.jpg`.
-
-
-The Tableau Dashboard can be accessed from here: https://public.tableau.com/app/profile/sai.ruthvik.bandaru/viz/TradeAnalysis_17087959755380/GLOBALTRADEANALYSIS-1?publish=yes
